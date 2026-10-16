@@ -1,0 +1,30 @@
+{
+  "pipeline_name": "video_producer_pipeline",
+  "version": "1.0.0",
+  "description": "专业视频创作流水线，包含文案构建与视觉分镜设计两大多样化槽位",
+  "slots": [
+    {
+      "slot_id": "script_generation",
+      "name": "文案剧本槽位",
+      "description": "负责根据视频主题生成极具风格化叙事的文案与节奏",
+      "expected_output_fields": ["headline", "body_content", "tone_used"],
+      "default_fallback": {
+        "headline": "默认视频标题",
+        "body_content": "默认视频叙事正文",
+        "tone_used": "标准通识风"
+      }
+    },
+    {
+      "slot_id": "visual_storyboard",
+      "name": "分镜视觉槽位",
+      "description": "根据上游生成的文案，构建画面构图、镜头语言与提示词",
+      "expected_output_fields": ["scenes", "render_style"],
+      "default_fallback": {
+        "scenes": [
+          {"scene_id": 1, "prompt": "标准中景，写实光影"}
+        ],
+        "render_style": "现代写实"
+      }
+    }
+  ]
+}

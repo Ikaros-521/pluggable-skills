@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "pipeline_name": "example_pipeline",
+  "version": "1.0.0",
+  "description": "通用多阶段可插拔流水线模板",
+  "slots": [
+    {
+      "slot_id": "step_1_concept",
+      "name": "创意策划槽位",
+      "description": "根据原始主题提炼创意方向与结构",
+      "required": true,
+      "default_fallback": {
+        "tone": "neutral",
+        "guidelines": "清晰扼要列出3个核心创意要点。"
+      },
+      "expected_output_fields": ["theme", "angle", "key_points"]
+    },
+    {
+      "slot_id": "step_2_content",
+      "name": "内容撰写槽位",
+      "description": "按指定调性填充主体文本",
+      "required": true,
+      "default_fallback": {
+        "tone": "objective",
+        "guidelines": "逻辑严密、表达连贯。"
+      },
+      "expected_output_fields": ["headline", "body_paragraphs", "conclusion"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pipeline_name": "copywriting_pipeline",
+  "version": "1.0.0",
+  "description": "自媒体爆款内容创作流水线，包含黄金开头与正文展开槽位",
+  "slots": [
+    {
+      "slot_id": "concept_hook",
+      "name": "开头爆点槽位",
+      "description": "打造前5秒抓住用户眼球的黄金开头与情绪张力",
+      "expected_output_fields": ["headline", "hook_text"],
+      "default_fallback": {
+        "headline": "默认标题",
+        "hook_text": "这是一个值得关注的社会现象。"
+      }
+    },
+    {
+      "slot_id": "body_expansion",
+      "name": "正文深度槽位",
+      "description": "按指定调性进行论述展开、举例与金句收尾",
+      "expected_output_fields": ["main_argument", "golden_quote"],
+      "default_fallback": {
+        "main_argument": "通过多角度分析得出该结论。",
+        "golden_quote": "保持独立思考。"
+      }
+    }
+  ]
+}
