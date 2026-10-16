@@ -3,6 +3,8 @@
 > **Defeat Homogenization: A Microkernel & Slot-based Pluggable Architecture for AI Agent Skills.**
 > 告别 AI 同质化：基于微内核与槽位机制的可插拔智能体技能规范与轻量引擎。
 
+[中文](README.md) | [English](README_EN.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Python: 3.8+](https://img.shields.io/badge/python-3.8+-green.svg)]()
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20external-brightgreen)]()
