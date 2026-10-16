@@ -8,6 +8,9 @@
 [![Python: 3.8+](https://img.shields.io/badge/python-3.8+-green.svg)]()
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20external-brightgreen)]()
 
+> 🎬 **Official End-to-End Production Video Showcase (with Edge-TTS & MP4 Rendering)**:  
+> Check out the dedicated implementation repo 👉 [**pluggable-video-producer**](https://github.com/Ikaros-521/pluggable-video-producer) to see how the same footage yields two radically distinct videos in under 15 seconds.
+
 ---
 
 ## 🎯 The Pain Point & Philosophy

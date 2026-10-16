@@ -9,6 +9,9 @@
 [![Python: 3.8+](https://img.shields.io/badge/python-3.8+-green.svg)]()
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20external-brightgreen)]()
 
+> 🎬 **官方端到端物理视频落地实战（包含真实人声与 MP4 渲染）**：  
+> 请访问独立参考实现仓库 👉 [**pluggable-video-producer**](https://github.com/Ikaros-521/pluggable-video-producer)（基于 Edge-TTS + FFmpeg，10秒内将同一段素材剪辑出两种视听风格完全不撞车的真实视频）。
+
 ---
 
 ## 🎯 痛点与解决思路
