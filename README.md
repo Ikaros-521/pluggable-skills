@@ -10,7 +10,10 @@
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20external-brightgreen)]()
 
 > 🎬 **官方端到端物理视频落地实战（包含真实人声与 MP4 渲染）**：  
-> 请访问独立参考实现仓库 👉 [**pluggable-video-producer**](https://github.com/Ikaros-521/pluggable-video-producer)（基于 Edge-TTS + FFmpeg，10秒内将同一段素材剪辑出两种视听风格完全不撞车的真实视频）。
+> 请访问独立参考实现仓库 👉 [**pluggable-video-producer**](https://github.com/Ikaros-521/pluggable-video-producer)（基于 Edge-TTS + FFmpeg，10秒内将同一段素材剪辑出两种视听风格完全不撞车的真实视频）。  
+>  
+> 🎨 **官方前端 UI 原型可插拔实战（通用审美底座 + 细节点积木式插拔）**：  
+> 请访问独立参考实现仓库 👉 [**pluggable-ui-designer**](https://github.com/Ikaros-521/pluggable-ui-designer)（拒绝 AI Slop 审美同质化，自由热插拔发丝线质感、Bento网格、温润暖石调色板与物理微动效）。
 
 ---
 

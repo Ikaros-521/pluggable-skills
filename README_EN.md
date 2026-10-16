@@ -9,7 +9,10 @@
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20external-brightgreen)]()
 
 > 🎬 **Official End-to-End Production Video Showcase (with Edge-TTS & MP4 Rendering)**:  
-> Check out the dedicated implementation repo 👉 [**pluggable-video-producer**](https://github.com/Ikaros-521/pluggable-video-producer) to see how the same footage yields two radically distinct videos in under 15 seconds.
+> Check out the dedicated implementation repo 👉 [**pluggable-video-producer**](https://github.com/Ikaros-521/pluggable-video-producer) to see how the same footage yields two radically distinct videos in under 15 seconds.  
+>  
+> 🎨 **Official Frontend UI Prototype Design Showcase (Aesthetic Core + Composable Slot Mixins)**:  
+> Check out the dedicated implementation repo 👉 [**pluggable-ui-designer**](https://github.com/Ikaros-521/pluggable-ui-designer) to eliminate "AI Slop" and hot-swap hairline borders, Bento grids, warm stone palettes, and tactile feedback.
 
 ---
 
